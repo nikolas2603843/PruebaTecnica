@@ -4,7 +4,8 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
-  templateUrl: './navbar.component.html'
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.css'
 })
 export class NavbarComponent implements OnInit {
 
@@ -18,3 +19,4 @@ export class NavbarComponent implements OnInit {
       this.router.navigate(['/buscar',termino]);
   }
 }
+
